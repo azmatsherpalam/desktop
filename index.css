@@ -1,0 +1,90 @@
+/* Css Global Variables */
+:root {
+    --primary-color: #F55800;
+    --navbar-color: #3E3C3C;
+    --light-color: #fff;
+    --main-font: 'Poppins',sans-serif;
+  
+  }
+  *,*::before,*::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  @font-face {
+      font-family: inter;
+      src: url(./font/Inter-VariableFont_opsz\,wght.ttf);
+  }
+  body {
+      font-family: var(--main-font);
+      font-size: 16px;
+      line-height: 1.6px;
+    
+  }
+
+
+  a {
+      text-decoration: none;
+      color: var(--light-color)
+  }
+  
+  .navbar {
+      background-color: var(--navbar-color);
+      font-family: inter;
+      display: flex;
+      list-style: none;
+      padding: 1em 9em 1em 9em;
+      align-items: center;
+    
+  
+  }
+  .navbar .nav-item {
+      margin:0 1em;
+  }
+  #logo {
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: center;
+
+  
+  }
+  .navbar > li {
+      font-family: 600px;
+      font-size: 0.9em;
+      line-height: 20px;
+      text-align: center;
+  }
+  .hero {
+      padding-top: 12em;
+      padding-bottom: 12em;
+      padding-left: 2.2em;
+      background-color: #1C1A19;
+      columns: var(--light-color);
+      position: relative;
+  }
+  .social-icons-vertical {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      position: absolute;
+      top: 50%;
+      left: 20px;
+
+      
+  }
+  .social-icons-vertical a {
+      color: #CFCFCF;
+      font-size: 1rem
+  }
+  .container {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 0 1.2rem;
+      color: #fff
+  }
+  .hero-container {
+    
+      
+  }
